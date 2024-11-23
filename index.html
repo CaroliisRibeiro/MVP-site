@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adoção de Pets - Recife</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Adoção de Pets Recife</h1>
+      <ul>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#filtro">Filtro de Busca</a></li>
+        <li><a href="#calculadora">Calculadora</a></li>
+        <li><a href="historias.html">Histórias de Sucesso</a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seção: Galeria de Animais -->
+    <section id="galeria" class="galeria">
+      <h2>Conheça nossos Pets</h2>
+      <div class="animal-gallery">
+        <article class="animal-card">
+          <img src="mani.gif" alt="Cachorro Totó">
+          <h3>Totó</h3>
+          <p>Idade: 2 anos</p>
+          <p>Porte: Médio</p>
+        </article>
+        <article class="animal-card">
+          <img src="dog-smile-dog.gif" alt="Cadela Zoey">
+          <h3>Zoey</h3>
+          <p>Idade: 2 anos</p>
+          <p>Porte: Médio</p>
+        </article>
+        <article class="animal-card">
+          <img src="b39d0a1889e9d0b692bfceef34973a79.gif" alt="Gato Cego">
+          <h3>Cego</h3>
+          <p>Idade: 1 ano</p>
+          <p>Porte: Pequeno</p>
+        </article>
+        <!-- Adicione mais cards aqui -->
+        <article class="animal-card">
+            <img src="98f383923407f5910f4788a5b3298481.gif" alt="Gata Largata">
+            <h3>Largata</h3>
+            <p>Idade: 1 ano</p>
+            <p>Porte: Pequeno</p>
+          </article>
+      </div>
+    </section>
+
+    <div class="container">
+        <!-- Seção: Filtro de Busca -->
+        <section id="filtro" class="filtro">
+          <h2>Encontre o Pet Ideal</h2>
+          <form>
+            <label for="size">Tamanho:</label>
+            <select id="size">
+              <option value="pequeno">Pequeno</option>
+              <option value="medio">Médio</option>
+              <option value="grande">Grande</option>
+            </select>
+      
+            <label for="age">Idade:</label>
+            <select id="age">
+              <option value="filhote">Filhote</option>
+              <option value="adulto">Adulto</option>
+              <option value="idoso">Idoso</option>
+            </select>
+      
+            <button type="submit">Buscar</button>
+          </form>
+        </section>
+      
+        <!-- Seção: Calculadora -->
+        <section id="calculadora" class="calculadora">
+          <h2>Calcule os Custos</h2>
+          <img src="giphy (2).gif" alt="Gata Largata" class="imagem-calculadora">
+          <div class="conteudo-calculadora">
+            <label for="pet-size">Escolha o Tamanho do Pet:</label>
+            <select id="pet-size">
+              <option value="pequeno">Pequeno</option>
+              <option value="medio">Médio</option>
+              <option value="grande">Grande</option>
+            </select>
+            <button type="button" id="calcular">Calcular Custos</button>
+            <p id="resultado"></p>
+          </div>
+        </section>
+      </div>
+      
+      
+      
+      
+  </main>
+
+  <footer>
+    <p>© 2024 Adoção de Pets Recife</p>
+  </footer>
+</body>
+</html>

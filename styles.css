@@ -1,0 +1,228 @@
+/* -------------------------------- */
+/* Página Inicial - Estilos Gerais */
+/* -------------------------------- */
+
+/* Estilização Geral */
+body {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #f64d046d;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 5rem
+ 
+
+}
+section h2 {
+  color: #f64d046d;
+  padding: 1rem;
+  text-align: center;
+
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Botões Gerais */
+button {
+  background-color: #f64d046d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f64d046d;
+}
+
+/* Galeria de Animais */
+.animal-gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 1rem;
+}
+
+.animal-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+.animal-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Filtro de Busca */
+/* Container Geral */
+.container {
+  display: flex;
+  flex-direction: column; /* Organiza as seções em coluna */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  gap: 2rem; /* Espaçamento entre as seções */
+  padding: 1rem;
+}
+
+/* Filtro de Busca */
+.filtro {
+  width: 12%; /* Ocupa a largura total disponível */
+  padding: 1rem;
+  background-color: #f9f9f9; /* Cor de fundo para destacar */
+  border: 1px solid #ddd; /* Adiciona uma borda */
+  border-radius: 8px; /* Cantos arredondados */
+}
+
+.filtro h2 {
+  text-align: center; /* Alinha o título à esquerda */
+}
+
+.filtro form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaçamento entre os elementos */
+}
+
+.filtro button {
+  background-color: #f64d046d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.filtro button:hover {
+  background-color: #f64d046d;
+}
+
+/* Calculadora */
+.calculadora {
+  width: 12%; /* Ocupa a largura total disponível */
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff; /* Diferente do filtro para contraste */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.calculadora img {
+  width: 101%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+.conteudo-calculadora {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaçamento interno */
+}
+
+
+
+
+/* -------------------------------- */
+/* Subpágina: Histórias de Sucesso */
+/* -------------------------------- */
+.historias {
+  padding: 2rem;
+  text-align: center;
+}
+/* Estilização do título do cabeçalho */
+header h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Define uma nova fonte */
+  font-size: 5rem; /* Aumenta o tamanho da letra */
+  font-weight: bold; /* Torna a fonte mais destacada */
+  color: white; /* Altera a cor, se necessário */
+  text-align: center; /* Garante que o título fique centralizado */
+  margin: 1rem 0; /* Adiciona espaçamento em volta */
+}
+
+.historias h2 {
+  margin-bottom: 1.5rem;
+  color: #f65a06a1;
+}
+
+.historias-gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.historia-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.historia-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.historia-card h3 {
+  font-size: 1.2rem;
+  color: #f09c42;
+  margin-bottom: 0.5rem;
+}
+
+.historia-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+
+
+/* Rodapé */
+footer {
+  background-color:#f64d046d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
